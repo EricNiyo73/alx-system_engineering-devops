@@ -70,9 +70,9 @@ backend www-backend
 
     redirect scheme https if !{ ssl_fc }
 
-    server 375-web-01 35.174.185.204:80 check
+    server 75800-web-01 35.174.185.204:80 check
 
-    server 375-web-02 54.236.24.43:80 check
+    server 75800-web-02 54.236.24.43:80 check
 
 
 

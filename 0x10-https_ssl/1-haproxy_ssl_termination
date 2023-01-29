@@ -68,9 +68,9 @@ backend www-backend
 
     redirect scheme https if !{ ssl_fc }
 
-    server 5800-web-01 35.174.185.204:80 check
+    server 75800-web-01 35.174.185.204:80 check
 
-    server 5800-web-02 54.236.24.43:80 check
+    server 75800-web-02 54.236.24.43:80 check
 
 
 
